@@ -33,6 +33,21 @@ One brief, checked by hand against it, so read it as an illustration rather than
 
 ## Install
 
+### As a plugin: Claude Code, the Claude apps and Cursor
+
+Installed as a plugin, work-humanizer updates from this repository, so you don't copy the folder again after each change.
+
+| Where | Install | Update |
+|---|---|---|
+| Claude Code | `/plugin install work-humanizer --marketplace phuryn/work-humanizer`. Before 2.1.275: `claude plugin marketplace add phuryn/work-humanizer`, then `claude plugin install work-humanizer@work-humanizer` | Turn on auto-update for the marketplace in `/plugin` → **Marketplaces** (it's off for marketplaces outside Anthropic), or run `claude plugin update work-humanizer@work-humanizer` |
+| Claude on the web and desktop (paid plans) | **Customize → Plugins → Add → Add marketplace → Add from a repository**, enter `phuryn/work-humanizer`, then add `work-humanizer`. It also syncs to Claude Code when you sign in with the same account. | Not documented yet |
+| Cursor (Teams and Enterprise) | **Dashboard → Plugins & MCPs → Add Marketplace → Import from Repo** with this repository's URL | **Refresh** on the marketplace |
+| Cursor (any plan) | Copy `skills/work-humanizer` to `~/.cursor/plugins/local/work-humanizer` and reload Cursor | Copy it again |
+
+The plugin has no version number, so each commit to `main` counts as a new version.
+
+### By copying the folder: any agent
+
 Copy the `skills/work-humanizer` folder into your agent's skills folder:
 
 | Agent | Folder |

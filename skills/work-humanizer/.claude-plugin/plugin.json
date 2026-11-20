@@ -1,0 +1,21 @@
+{
+  "name": "work-humanizer",
+  "displayName": "Work Humanizer",
+  "description": "Edits AI-sounding work writing so it reads like a careful person wrote it, without changing what it says or commits to. Rewrite and interview modes, plus writing from the writer's own notes.",
+  "author": {
+    "name": "Pawel Huryn",
+    "url": "https://github.com/phuryn"
+  },
+  "homepage": "https://github.com/phuryn/work-humanizer",
+  "repository": "https://github.com/phuryn/work-humanizer",
+  "license": "MIT",
+  "keywords": [
+    "writing",
+    "humanizer",
+    "editing",
+    "ai-writing"
+  ],
+  "skills": [
+    "./"
+  ]
+}
